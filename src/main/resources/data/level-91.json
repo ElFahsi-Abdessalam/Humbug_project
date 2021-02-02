@@ -1,0 +1,98 @@
+{
+    "board": {
+        "squares": [
+            [null, null, {
+                    "type": "GRASS"
+                }, null, null, null, null],
+            [{
+                    "type": "GRASS"
+                }, {
+                    "type": "STAR"
+                }, {
+                    "type": "STAR"
+                }, {
+                    "type": "GRASS"
+                }, null, null, null],
+            [null, null, {
+                    "type": "GRASS"
+                }, null, null, null, null],
+            [null, null, {
+                    "type": "STAR"
+                }, null, null, null, null],
+            [null, {
+                    "type": "GRASS",
+                    "eastWall": true
+                }, {
+                    "type": "GRASS"
+                }, {
+                    "type": "GRASS"
+                },
+                {
+                    "type": "STAR"
+                }, {
+                    "type": "GRASS"
+                }, {
+                    "type": "GRASS"
+                }],
+
+            [null, null, {
+                    "type": "STAR",
+                    "southWall": true
+                }, {
+                    "type": "STAR"
+                }, null, null, null]
+        ]
+    },
+    "animals": [
+        {
+            "type": "Spider",
+            "positionOnBoard": {
+                "row": 0,
+                "column": 2
+            }
+        },
+
+        {
+            "type": "Spider",
+            "positionOnBoard": {
+                "row": 4,
+                "column": 2
+            }
+        },
+
+        {
+            "type": "Spider",
+            "positionOnBoard": {
+                "row": 4,
+                "column": 5
+            }
+        },
+
+        {
+            "type": "Spider",
+            "positionOnBoard": {
+                "row": 4,
+                "column": 6
+            }
+        },
+
+        {
+            "type": "Butterfly",
+            "positionOnBoard": {
+                "row": 1,
+                "column": 0
+            }
+        },
+
+        {
+            "type": "Bumbelbee",
+            "positionOnBoard": {
+                "row": 4,
+                "column": 1
+            }
+        }
+
+    ],
+    "nMoves": 11
+}
+

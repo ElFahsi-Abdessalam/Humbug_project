@@ -1,0 +1,98 @@
+{
+    "board": {
+        "squares": [     
+            [null, {
+                    "type": "GRASS",
+                    "northWall": true
+                }, {
+                    "type": "GRASS"
+                }, {
+                    "type": "STAR",
+                    "eastWall": true
+                }, null, null, null],
+
+            [null, {
+                    "type": "GRASS"
+                }, null, {
+                    "type": "GRASS"
+                }, null, null, null],  
+
+            [{
+                    "type": "GRASS"
+                }, {
+                    "type": "GRASS"
+                }, {
+                    "type": "GRASS"
+                }, {
+                    "type": "GRASS"
+                }, {
+                    "type": "GRASS",
+                    "eastWall": true,
+                    "northWall": true
+                }, null, {
+                    "type": "STAR"
+                }],
+
+            [null, null, null, null, {
+                    "type": "GRASS"
+                }, null, null],
+
+            [null, null, null, null, {
+                    "type": "GRASS"
+                }, {
+                    "type": "GRASS"
+                }, {
+                    "type": "STAR"
+                }],
+
+            [null, null, null, {
+                    "type": "STAR"
+                }, {
+                    "type": "GRASS"
+                }, {
+                    "type": "GRASS"
+                }, {
+                    "type": "GRASS"
+                }] ,
+             [null, null, null, null, {
+                    "type": "GRASS"
+                }, null, null]
+
+
+        ]
+    },
+    "animals": [
+
+        {
+            "type": "Butterfly",
+            "positionOnBoard": {
+                "row": 2,
+                "column": 0
+            }
+        },
+
+        {
+            "type": "Ladybird",
+            "positionOnBoard": {
+                "row": 2,
+                "column": 4
+            }
+        },
+
+        {
+            "type": "Spider",
+            "positionOnBoard": {
+                "row": 5,
+                "column": 6
+            }
+        },
+         {
+            "type": "Ladybird",
+            "positionOnBoard": {
+                "row": 6,
+                "column": 4
+            }
+
+    }],
+    "nMoves": 16
+}

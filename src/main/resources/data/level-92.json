@@ -1,0 +1,92 @@
+{
+    "board": {
+        "squares": [     
+            [null, {
+                    "type": "GRASS"
+                }, null, null, null, null],      
+            [null, {
+                    "type": "GRASS"
+                }, {
+                    "type": "STAR"
+                }, {
+                    "type": "GRASS"
+                }, {
+                    "type": "STAR"
+                }, null], 
+            [null, {
+                    "type": "GRASS"
+                }, null, null, {
+                    "type": "GRASS"
+                }, null], 
+            [{
+                    "type": "GRASS"
+                }, {
+                    "type": "GRASS"
+                }, {
+                    "type": "STAR"
+                }, {
+                    "type": "GRASS"
+                } 
+                , {
+                    "type": "GRASS"
+                }, {
+                    "type": "STAR"
+                }],   
+            [null, null, {
+                    "type": "STAR"
+                }, null, {
+                    "type": "GRASS"
+                }, null],    
+            [null, null, {
+                    "type": "GRASS"
+                }, null, {
+                    "type": "GRASS"
+                }, null]
+
+        ]
+    },
+    "animals": [
+
+        {
+            "type": "Butterfly",
+            "positionOnBoard": {
+                "row": 0,
+                "column": 1
+            }
+        },
+
+        {
+            "type": "Bumbelbee",
+            "positionOnBoard": {
+                "row": 1,
+                "column": 3
+            }
+        },
+
+        {
+            "type": "Grasshopper",
+            "positionOnBoard": {
+                "row": 3,
+                "column": 4
+            }
+        },
+
+        {
+            "type": "Spider",
+            "positionOnBoard": {
+                "row": 5,
+                "column": 2
+            }
+        },
+
+        {
+            "type": "Ladybird",
+            "positionOnBoard": {
+                "row": 5,
+                "column": 4
+            }
+        }
+
+    ],
+    "nMoves": 10
+}

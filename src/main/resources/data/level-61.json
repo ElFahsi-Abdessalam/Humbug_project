@@ -1,0 +1,25 @@
+{
+  "board": {
+    "squares": [
+      [{ "type": "STAR" }, null, null, null, null],
+      [{ "type": "GRASS" }, null,{ "type": "GRASS" }, { "type": "GRASS" }, { "type": "GRASS" } ],
+      [{ "type": "GRASS" }, null, { "type": "STAR" }, { "type": "STAR" },{ "type": "GRASS" } ],
+      [ null, null,{ "type": "STAR" },{ "type": "GRASS" },{ "type": "GRASS" }],
+      [ null, null, null, null,{ "type": "GRASS" }]
+     
+    ]
+  },
+  "animals": [
+        
+    { "type": "Ladybird", "positionOnBoard": { "row": 1, "column": 4 } },
+        
+    { "type": "Bumbelbee", "positionOnBoard": { "row": 2, "column": 0 } },
+    
+    { "type": "Ladybird", "positionOnBoard": { "row": 3, "column": 4 } },
+    
+    { "type": "Spider", "positionOnBoard": { "row": 4, "column": 4 } }
+    
+  ],
+  "nMoves": 9
+}
+
